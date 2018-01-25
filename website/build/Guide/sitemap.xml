@@ -8,9 +8,30 @@
 <url> <loc>https://mayaonline.io/blog/2017/09/25/testing-rss.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://mayaonline.io/blog/2017/04/10/blog-post-two.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://mayaonline.io/blog/2016/03/11/blog-post.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://mayaonline.io/docs/api7.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/api7.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/api8.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/api8.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/api5.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/api5.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/gs2.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/gs2.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/api9.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/api9.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/gs3.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/gs3.html" /> </url>
 <url> <loc>https://mayaonline.io/docs/doc1.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/doc1.html" /> </url>
-<url> <loc>https://mayaonline.io/docs/doc2.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/doc2.html" /> </url>
-<url> <loc>https://mayaonline.io/docs/doc3.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/doc3.html" /> </url>
-<url> <loc>https://mayaonline.io/docs/doc4.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/doc4.html" /> </url>
-<url> <loc>https://mayaonline.io/docs/doc5.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/doc5.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/api6.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/api6.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/api3.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/api3.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/how-to-use-the-examples.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/how-to-use-the-examples.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/api4.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/api4.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/gs5.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/gs5.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/gs4.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/gs4.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/gs1.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/gs1.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/api2.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/api2.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/methods.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/methods.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/gs6.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/gs6.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/gs7.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/gs7.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/README (2).html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/README (2).html" /> </url>
+<url> <loc>https://mayaonline.io/docs/api1.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/api1.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/api10.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/api10.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/structure-of-an-example.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/structure-of-an-example.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/SUMMARY (2).html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/SUMMARY (2).html" /> </url>
+<url> <loc>https://mayaonline.io/docs/SUMMARY.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/SUMMARY.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/websitecss.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/websitecss.html" /> </url>
+<url> <loc>https://mayaonline.io/docs/why-use-rest-apis.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://mayaonline.io/docs/why-use-rest-apis.html" /> </url>
 </urlset>
