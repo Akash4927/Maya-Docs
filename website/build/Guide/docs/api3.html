@@ -1,0 +1,182 @@
+<html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Generating an API Access Key · MayaOnline</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta property="og:title" content="Generating an API Access Key · MayaOnline"/><meta property="og:type" content="website"/><meta property="og:url" content="https://mayaonline.io/index.html"/><meta property="og:description" content="You can use the following example to access MayaOnline API in third party applications. The publicValue and secretValue must be added in a header in the following format where encdata contains base64 of public and private key."/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/mayaonline.png"/><h2 class="headerTitle">MayaOnline</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li><a href="/docs/doc1.html" target="_self">Docs</a></li><li><a href="/docs/api1.html" target="_self">API</a></li><li><a target="_self">Blog</a></li><li><a href="https://app.mayaonline.io" target="_self">Login</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>API Guide</span></h2></div><div class="navGroups"><div class="navGroup navGroupActive"><h3>API Guide</h3><ul><li class="navListItem"><a class="navItem" href="/docs/api1.html">Introduction</a></li><li class="navListItem"><a class="navItem" href="/docs/api2.html">MayaOnline Authentication</a></li><li class="navListItem navListItemActive"><a class="navItem navItemActive" href="/docs/api3.html">Generating an API Access Key</a></li><li class="navListItem"><a class="navItem" href="/docs/api4.html">Viewing Endpoints</a></li><li class="navListItem"><a class="navItem" href="/docs/api5.html">Authorization Endpoint</a></li><li class="navListItem"><a class="navItem" href="/docs/api6.html">Examples</a></li><li class="navListItem"><a class="navItem" href="/docs/api7.html">Accounts</a></li><li class="navListItem"><a class="navItem" href="/docs/api8.html">API Keys</a></li><li class="navListItem"><a class="navItem" href="/docs/api9.html">Clusters</a></li><li class="navListItem"><a class="navItem" href="/docs/api10.html">Slack Integration</a></li></ul></div></div></section></div><script>
+          var toggler = document.getElementById('navToggler');
+          var nav = document.getElementById('docsNav');
+          toggler.onclick = function() {
+            nav.classList.toggle('docsSliderActive');
+          };
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1>Generating an API Access Key</h1></header><article><div><span><p>You can use the following example to access MayaOnline API in third party applications. The publicValue and secretValue must be added in a header in the following format where encdata contains base64 of public and private key.</p>
+<p><code>headers:</code></p>
+<pre><code class="hljs"> 'Authorization' : 'Basic ' + encdata,
+</code></pre>
+<p><code>},</code></p>
+<h3><a class="anchor" aria-hidden="true" name="example"></a><a href="#example" aria-hidden="true" class="hash-link" ><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
+<p><code>HTTP/1.1 201</code></p>
+<p><code>date:</code></p>
+<p><code>Tue, 23 Jan 2018 06:19:28 GMT</code></p>
+<p><code>x-api-user-id:</code></p>
+<p><code>1a77</code></p>
+<p><code>server:</code></p>
+<p><code>nginx/1.13.6</code></p>
+<p><code>x-api-client-ip:</code></p>
+<p><code>106.51.73.198</code></p>
+<p><code>x-api-roles:</code></p>
+<p><code>user</code></p>
+<p><code>strict-transport-security:</code></p>
+<p><code>max-age=15724800; includeSubDomains;</code></p>
+<p><code>content-type:</code></p>
+<p><code>application/json; charset=utf-8</code></p>
+<p><code>status:</code></p>
+<p><code>201</code></p>
+<p><code>x-api-account-id:</code></p>
+<p><code>1a77</code></p>
+<p><code>x-api-schemas:</code></p>
+<p><a href="https://dev.mayacloud.io/v3/schemas"><code>https://dev.mayacloud.io/v3/schemas</code></a></p>
+<p><code>content-length:</code></p>
+<p><code>841</code></p>
+<p><code>expires:</code></p>
+<p><code>Thu, 01 Jan 1970 00:00:00 GMT</code></p>
+<p><code>{</code></p>
+<p><code>&quot;</code></p>
+<p><code>id</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><a href="https://dev.mayacloud.io/v3/apikeys/1ak52"><code>&quot;1ak52&quot;</code></a></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>type</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><a href="https://dev.mayacloud.io/v3/schemas/apikey"><code>&quot;apiKey&quot;</code></a></p>
+<p><code>,</code></p>
+<p><code>&quot; links &quot; : {</code></p>
+<p><code>&quot;</code></p>
+<p><code>self</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><a href="https://dev.mayacloud.io/v3/apikeys/1ak52"><code>&quot;…/v3/apikeys/1ak52&quot;</code></a></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>account</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><a href="https://dev.mayacloud.io/v3/apikeys/1ak52/account"><code>&quot;…/v3/apikeys/1ak52/account&quot;</code></a></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>instances</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><a href="https://dev.mayacloud.io/v3/apikeys/1ak52/instances"><code>&quot;…/v3/apikeys/1ak52/instances&quot;</code></a></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>remove</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><a href="https://dev.mayacloud.io/v3/apikeys/1ak52"><code>&quot;…/v3/apikeys/1ak52&quot;</code></a></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>update</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><a href="https://dev.mayacloud.io/v3/apikeys/1ak52"><code>&quot;…/v3/apikeys/1ak52&quot;</code></a></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>certificate</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><a href="https://dev.mayacloud.io/v3/apikeys/1ak52/certificate"><code>&quot;…/v3/apikeys/1ak52/certificate&quot;</code></a></p>
+<p><code>},</code></p>
+<p><code>&quot;</code></p>
+<p><code>actions</code></p>
+<p><code>&quot;</code></p>
+<p><code>: { },</code></p>
+<p><code>&quot;</code></p>
+<p><code>baseType</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>&quot;credential&quot;</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>name</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>&quot;test&quot;</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>state</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>&quot;creating&quot;</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>accountId</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><a href="https://dev.mayacloud.io/v3/accounts/1a77"><code>&quot;1a77&quot;</code></a></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>clusterId</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>null</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>created</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>&quot;2018-01-23T06:19:29Z&quot;</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>createdTS</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>1516688369000</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>description</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>&quot;test&quot;</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>kind</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>&quot;apiKey&quot;</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>publicValue</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>&quot;B1EC74D92D93610A2F6F&quot;</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>removed</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>null</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>secretValue</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>&quot;Gp355fxSDFNwZpUnq8UGxszBYydc4x5RrXKT1rLM&quot;</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>transitioning</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>&quot;yes&quot;</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>transitioningMessage</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>&quot;Creating&quot;</code></p>
+<p><code>,</code></p>
+<p><code>&quot;</code></p>
+<p><code>uuid</code></p>
+<p><code>&quot;</code></p>
+<p><code>:</code></p>
+<p><code>&quot;b41e3c75-188a-4cd5-86bd-d9c4809dfcd4&quot;</code></p>
+<p><code>}</code></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="api2.html">← MayaOnline Authentication</a><a class="docs-next button" href="api4.html">User Authentication →</a></div></div></div></div><span> </span></div></body></html>
