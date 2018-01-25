@@ -15,15 +15,11 @@ const siteConfig = {
     projectName: 'Guide',
     headerLinks: [
         {
-            doc: 'doc1',
-            label: 'Docs'
-        },
-        {
-            doc: 'doc4',
+            doc: 'api1',
             label: 'API'
         },
         {
-            blog: true,
+            blog: false,
             label: 'Blog'
         },
         {
@@ -39,7 +35,7 @@ const siteConfig = {
     favicon: 'img/favicon.ico',
     /* colors for website */
     colors: {
-        primaryColor: '#495057',
+        primaryColor: '#084766',
         secondaryColor: '#205C3B',
     },
     // This copyright info is used in /core/Footer.js and blog rss/atom feeds.

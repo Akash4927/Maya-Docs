@@ -5,16 +5,16 @@ body {
 
 /* NAV bar */
 .fixedHeaderContainer header img {
-    width: 160px;
+    width: 220px;
     height: auto;
 }
 
 .fixedHeaderContainer header h2 {
-    color: #fff;
+    color: #084766;
 }
 
 .fixedHeaderContainer {
-    background: #fff;
+    background: #084766;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
     transition: background-color 0.3s ease-in-out;
 }
@@ -25,22 +25,13 @@ body {
 }
 
 .navigationSlider .slidingNav ul li a {
-    color: rgba(78, 78, 78, 0.8);
+    color: #fff;
 }
 
 .navigationSlider .slidingNav ul li a:focus,
 .navigationSlider .slidingNav ul li a:hover {
-    background: #fff;
-    text-decoration-style: double;
-    color
-}
-
-.navigationSlider .slidingNav ul li a:hover {
-    color: darkseagreen;
-}
-
-nav {
-    position: fixed;
+    text-decoration: underline;
+    background: #084766;
 }
 
 /* Side bar*/
@@ -50,7 +41,7 @@ nav.toc .toggleNav {
 }
 
 nav.toc .toggleNav .navGroup.navGroupActive h3 {
-    background: #DEE2E6;
+    background: #084766;
 }
 
 nav.toc .toggleNav .navGroup.navGroupActive {
@@ -84,6 +75,9 @@ nav.toc .toggleNav .navGroup.navGroupActive {
 .mb-2,
 .my-2 {
     margin-bottom: 0.5rem !important;
+}
+pre code{
+    border-color: #f2a850;
 }
 
 @media (max-width: 576px) {

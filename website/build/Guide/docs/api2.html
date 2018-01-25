@@ -1,0 +1,44 @@
+<html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>MayaOnline Authentication · MayaOnline</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta property="og:title" content="MayaOnline Authentication · MayaOnline"/><meta property="og:type" content="website"/><meta property="og:url" content="https://mayaonline.io/index.html"/><meta property="og:description" content="You can access MayaOnline without logging in by going to [https://dev.mayacloud.io/v3/token](https://dev.mayacloud.io/v3/token) and using the following example."/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/mayaonline.png"/><h2 class="headerTitle">MayaOnline</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li><a href="/docs/doc1.html" target="_self">Docs</a></li><li><a href="/docs/api1.html" target="_self">API</a></li><li><a target="_self">Blog</a></li><li><a href="https://app.mayaonline.io" target="_self">Login</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>API Guide</span></h2></div><div class="navGroups"><div class="navGroup navGroupActive"><h3>API Guide</h3><ul><li class="navListItem"><a class="navItem" href="/docs/api1.html">Introduction</a></li><li class="navListItem navListItemActive"><a class="navItem navItemActive" href="/docs/api2.html">MayaOnline Authentication</a></li><li class="navListItem"><a class="navItem" href="/docs/api3.html">Generating an API Access Key</a></li><li class="navListItem"><a class="navItem" href="/docs/api4.html">Viewing Endpoints</a></li><li class="navListItem"><a class="navItem" href="/docs/api5.html">Authorization Endpoint</a></li><li class="navListItem"><a class="navItem" href="/docs/api6.html">Examples</a></li><li class="navListItem"><a class="navItem" href="/docs/api7.html">Accounts</a></li><li class="navListItem"><a class="navItem" href="/docs/api8.html">API Keys</a></li><li class="navListItem"><a class="navItem" href="/docs/api9.html">Clusters</a></li><li class="navListItem"><a class="navItem" href="/docs/api10.html">Slack Integration</a></li></ul></div></div></section></div><script>
+          var toggler = document.getElementById('navToggler');
+          var nav = document.getElementById('docsNav');
+          toggler.onclick = function() {
+            nav.classList.toggle('docsSliderActive');
+          };
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1>MayaOnline Authentication</h1></header><article><div><span><p>You can access MayaOnline without logging in by going to <a href="https://dev.mayacloud.io/v3/token">https://dev.mayacloud.io/v3/token</a> and using the following example.</p>
+<p><code>{</code></p>
+<p><code>&quot;type&quot;: &quot;collection&quot;,</code></p>
+<p><code>&quot;resourceType&quot;: &quot;token&quot;,</code></p>
+<p><code>&quot;links&quot;: {</code></p>
+<p><code>&quot;self&quot;: &quot;…/v3/token&quot;</code></p>
+<p><code>},</code></p>
+<p><code>&quot;createTypes&quot;: { },</code></p>
+<p><code>&quot;actions&quot;: { },</code></p>
+<p><code>&quot;data&quot;: [</code></p>
+<p><code>{</code></p>
+<p><code>&quot;id&quot;: null,</code></p>
+<p><code>&quot;type&quot;: &quot;token&quot;,</code></p>
+<p><code>&quot;links&quot;: {</code></p>
+<p><code>&quot;remove&quot;: null</code></p>
+<p><code>},</code></p>
+<p><code>&quot;actions&quot;: { },</code></p>
+<p><code>&quot;baseType&quot;: &quot;token&quot;,</code></p>
+<p><code>&quot;accountId&quot;: null,</code></p>
+<p><code>&quot;authProvider&quot;: &quot;githubconfig&quot;,</code></p>
+<p><code>&quot;code&quot;: null,</code></p>
+<p><code>&quot;enabled&quot;: true,</code></p>
+<p><code>&quot;inviteCode&quot;: null,</code></p>
+<p><code>&quot;jwt&quot;: &quot;d1tRMgFzWffE9QsfA8neVr6iE7LE8QKEi2SkPJeo&quot;,</code></p>
+<p><code>&quot;redirectUrl&quot;: &quot;https://github.com/login/oauth/authorize?client_id=841b168f866f1f7127e4&quot;,</code></p>
+<p><code>&quot;security&quot;: true,</code></p>
+<p><code>&quot;slackOauthUrl&quot;: &quot;https://slack.com/oauth/authorize?client_id=259700574529.277662436016&amp;scope=channels:history,im:history,bot,commands,incoming-webhook,chat:write:user,channels:read,channels:write,chat:write:bot,groups:read,groups:history,groups:write,im:read,mpim:history,usergroups:read&quot;,</code></p>
+<p><code>&quot;user&quot;: null,</code></p>
+<p><code>&quot;userType&quot;: &quot;user&quot;</code></p>
+<p><code>}</code></p>
+<p><code>],</code></p>
+<p><code>&quot;sortLinks&quot;: { },</code></p>
+<p><code>&quot;pagination&quot;: null,</code></p>
+<p><code>&quot;sort&quot;: null,</code></p>
+<p><code>&quot;filters&quot;: { },</code></p>
+<p><code>&quot;createDefaults&quot;: { }</code></p>
+<p><code>}</code></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="api1.html">← Introduction</a><a class="docs-next button" href="api3.html">Generating an API Access Key →</a></div></div></div></div><span> </span></div></body></html>
